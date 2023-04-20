@@ -1,0 +1,65 @@
+* {
+  margin: 0px;
+}
+.bg-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sub-container {
+  background-image: linear-gradient(to bottom, #150b3e, #382f5a);
+  color: white;
+  width: 32%;
+  border-radius: 20px;
+  padding: 40px;
+}
+.user-details-container {
+  display: flex;
+  margin-bottom: 40px;
+}
+.user-icon {
+  height: 50px;
+  width: 50px;
+  border-radius: 40px;
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  margin-right: 20px;
+}
+.user-name {
+  color: #c7d2fe;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.available-bal-container {
+  display: flex;
+  justify-content: space-between;
+  color: #585076;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+.display-money {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.with-draw-heading {
+  font-size: 25px;
+  font-family: roboto;
+  margin-bottom: 20px;
+}
+.sum-heading {
+  color: #585076;
+  font-weight: bold;
+}
+.notes-container {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
